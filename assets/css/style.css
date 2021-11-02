@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+.contactme ul {
+  font-size: medium;
+  text-align: center;
+  list-style-position: outside;
+  list-style-type: none;
+}
+
+.mywork h2 {
+  text-align: center;
+  margin: 20px;
+ 
+}
+
+nav {
+  display: flex;
+  background-color: #d8a47f;
+}
+
+nav a {
+  color: #13293d;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 30px;
+  text-align: center;
+}
+
+.aboutme img {
+  width: 100%;
+  outline-style: solid;
+}
+
+.projects {
+  flex: 1 50px;
+  background-color: #fff;
+  padding: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+  flex: 0 0 250px;
+  height: min-content;
+  
+}
+
+.project img {
+  width: 100%;
+
+}
+
+.project1 {
+  border-style: solid;
+  padding: 10px;
+  flex: 0 0 250px;
+
+}
+
+.project header {
+  padding: 20px;
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  main, nav {
+    flex-direction: column;
+  }
+}
